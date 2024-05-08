@@ -1,8 +1,3 @@
-//#include <iostream> // standard I/O for data input and output
-//#include <stack>    // data storage for evaluated values
-//#include <sstream>  // needed for string streaming
-//#include <vector>   // data storage for expression values
-//#include <cmath>    // needed for pow() function
 #include <conio.h>  // Needed for _getch()
 #include "expression-evaluator.h"
 

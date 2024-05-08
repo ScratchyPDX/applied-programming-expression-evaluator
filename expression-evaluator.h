@@ -3,7 +3,6 @@
 #include <sstream>  // needed for string streaming
 #include <vector>   // data storage for expression values
 #include <cmath>    // needed for pow() function
-#include <conio.h>  // Needed for _getch()
 
 using namespace std;
 
@@ -11,13 +10,6 @@ class ExpressionEvaluator {
 public:
     // Default constructor
     ExpressionEvaluator() {}
-
-    // provides a score to determine which operation has precedence during evaluation
-    int getPrecedence(string op) {
-        if (op == "+" || op == "-") { return 1; }
-        if (op == "*" || op == "/") { return 2; }
-        if (op == "^") { return 3; }
-    }
 
     // convert expression string to reverse polish notation using Shunting Yard Algorithm
     vector<string> getExpressionTokens(const string& expression) {
@@ -90,5 +82,14 @@ public:
             }
         }
         return value.top();
+    }
+
+private:
+
+    // provides a score to determine which operation has precedence during evaluation
+    int getPrecedence(string op) {
+        if (op == "+" || op == "-") { return 1; }
+        if (op == "*" || op == "/") { return 2; }
+        if (op == "^") { return 3; }
     }
 };
