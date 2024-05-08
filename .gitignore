@@ -1,0 +1,41 @@
+# Prerequisites
+*.d
+
+# Compiled Object files
+*.slo
+*.lo
+*.o
+*.obj
+
+# Precompiled Headers
+*.gch
+*.pch
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+*.smod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+/.vs
+/calc1/x64/Debug
+/Calculator/x64/Debug
+*.pdb
+/calc1.vcxproj.filters
+/calc1.vcxproj.user
+/Calculator.vcxproj.filters
+/Calculator.vcxproj.user
+/expressi.8a014321/x64/Debug
