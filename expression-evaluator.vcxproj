@@ -22,7 +22,7 @@
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
     <ProjectGuid>{8a014321-a479-475d-a2de-61d2d19e4d12}</ProjectGuid>
-    <RootNamespace>calc1</RootNamespace>
+    <RootNamespace>expression-evaluator</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
     <ProjectName>expression-evaluator</ProjectName>
   </PropertyGroup>
