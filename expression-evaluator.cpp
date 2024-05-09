@@ -1,6 +1,6 @@
 #include <conio.h>  // Needed for _getch()
 #include <string> 
-#include <sstream> // for ostringstream
+#include <sstream>  // for ostringstream
 #include "expression-evaluator.h"
 
 using namespace std;

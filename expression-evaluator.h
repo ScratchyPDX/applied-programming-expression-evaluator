@@ -13,7 +13,7 @@ public:
 
     // convert expression string to reverse polish notation using Shunting Yard Algorithm
     vector<string> getExpressionTokens(const string& expression) {
-        vector<string> tokens;  // output queue
+        vector<string> tokens;     // output queue
         stack<string> operators;   // operator stack
 
         istringstream iss(expression); // enable expression string to be streamed as separate values
