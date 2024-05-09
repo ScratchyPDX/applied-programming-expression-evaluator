@@ -1,4 +1,6 @@
 #include <conio.h>  // Needed for _getch()
+#include <string> 
+#include <sstream> // for ostringstream
 #include "expression-evaluator.h"
 
 using namespace std;
@@ -20,6 +22,13 @@ int main() {
 
         // break expression string into evaluation parts and place into a queue
         vector<string> tokens = eval->getExpressionTokens(expression);
+
+        // console log the rpn result
+        ostringstream oss;
+        for (const auto& token : tokens) {
+            oss << token << " ";
+        }
+        cout << "RPN output: " << oss.str() << endl;
 
         // evaluate result of expression and display results
         double result = eval->evaluateExpression(tokens);
