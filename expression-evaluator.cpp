@@ -12,7 +12,7 @@ int main() {
 
         // get expression string from user
         string expression = "";
-        cout << "Enter a mathematical expression (example: 4 + 3 * 2 / 1" << endl;
+        cout << "Enter a mathematical expression (example: 4 + 3 * 2 / 1)" << endl;
         cout << "Ensure to separate each number and operator with a blank space" << endl;
         cout << "What's the equation? ";
         getline(cin, expression);

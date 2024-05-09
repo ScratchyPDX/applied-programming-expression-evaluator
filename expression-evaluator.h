@@ -1,7 +1,7 @@
 #include <iostream> // standard I/O for data input and output
-#include <stack>    // data storage for evaluated values
+#include <stack>    // data storage for evaluated values as a LIFO stack
 #include <sstream>  // needed for string streaming
-#include <vector>   // data storage for expression values
+#include <vector>   // data storage for expression values as an array
 #include <cmath>    // needed for pow() function
 
 using namespace std;
